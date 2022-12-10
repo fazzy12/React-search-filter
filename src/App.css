@@ -1,14 +1,19 @@
 .App {
+  /* Center the elements inside the container and use a column layout */
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  /* Use the Arial, Helvetica, sans-serif font stack for all text */
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .App input{
+  /* Center the input field and add some space above it */
   margin: auto;
   margin-top: 20px;
+
+  /* Set the size and border radius of the input field */
   width: 350px;
   height: 40px;
   font-size: 20px;
@@ -17,9 +22,27 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+
+  /* Add some space between the input text and the left edge of the input field */
   padding-left: 10px;
 }
+
+/* Style the paragraph elements */
 p{
   margin: 10px;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+p:hover{
+  background-color: rgb(71, 115, 248);
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
