@@ -14,8 +14,6 @@ Mockaroo is a tool that I used to generate fake data for my search application. 
 
 ![App Screenshot](./mockaro.png)
 
-## 🛠 Skills
-Javascript, HTML, CSS...
 
 
 ## Tech Stack
